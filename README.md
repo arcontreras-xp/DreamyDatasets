@@ -5,11 +5,16 @@ Datasets that I use for testing, approximately 10000 rows each.
 
 ### Parameters
 
-**cloud_no**
-**n**
-**naxs**
-**stretch_par**
-**dist_par**
+**cloud_no** - number of clouds to generate
+
+**n** - total number of data points
+
+**naxs** - number of axes to generate in (equiv. dimension)
+
+**stretch_par** - list of *stretch* parameters, essentially a scalar multiplier on each *axis*
+
+**dist_par** - list of *split_dist* parameters, essentially a scalar multiplier on the distance that splits each cloud
 
 ## To Do
 [DONE] upload python code that generates the datasets
+[ ] adjust code so that *stretch* and *split_dist* parameters are applied to each *cloud* instead of each axis
