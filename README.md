@@ -20,3 +20,9 @@ Datasets that I use for testing, approximately 10000 rows each.
 **[DONE]** upload python code that generates the datasets
 
 **[ ]** adjust code so that *stretch* and *split_dist* parameters are applied to each *cloud* instead of each axis
+
+**[ ]** create sine wave generator with parameters: magnitude, wavelength, y-range, x-range, 90-deg-rotation, variance/noise
+
+**[ ]** add feature to sine wave generator that introduces linear increase
+
+**[ ]** add feature to sine wave generator that introduces multiple sine waves with parameters: phase-shift, y-shift
